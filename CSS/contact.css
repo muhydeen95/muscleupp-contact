@@ -1,0 +1,240 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Source+Sans+Pro:wght@600;700&display=swap');
+
+
+*, body {
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    background: #131313;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2, h3, h4, h5 {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+h2 {
+    font-weight: bold;
+}
+
+h3 {
+    font-weight: 600;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: .8rem;
+    font-weight: normal;
+}
+
+#navigation {
+    background: #5a5560;
+    font-family: 'Montserrat', sans-serif;
+}
+
+main {
+    padding: 3% auto;
+}
+
+.form-control {
+    background: transparent;
+    border: none;
+    color: #ffffff;
+}
+
+.form-inline i {
+    color: #faed26;
+}
+
+main {
+    background: url('../images/banner.svg') center/cover no-repeat;
+    width: 100%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.banner-title h2 {
+    color: #faed26;
+}
+
+.contact {
+    color: #ffffff;
+}
+
+.social-icon li {
+    list-style-type: none
+}
+
+.social-icon i {
+    color: #333;
+    padding: 5px;
+    background: #ffffff;
+    border-radius: 50%;
+    
+}
+
+.contact-form{
+    background-color: #131313;
+    padding: 10px 15px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.contact-form .form-control{
+    background: #ffffff;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.form-group button {
+    font-weight: bold;
+    font-size: 10px;
+    padding: 10px 20px;
+    margin-top: 10px;
+}
+
+.btn-warning {
+    background: #faed26;
+}
+
+/** map style **/
+
+.map {
+    margin-top: 3%;
+    background: url('../images/google-map.svg') center/cover no-repeat;
+    height: 500px;
+    position: relative;
+}
+
+.top-left {
+    position: absolute;
+    top: 15%;
+    left: 15%;
+}
+
+.top-right {
+    position: absolute;
+    top: 30%;
+    left: 57%;
+}
+
+.bottom {
+    position: absolute;
+    top: 60%;
+    left: 35%;
+}
+
+
+/** footer style **/
+
+footer {
+    background: #131313;
+    padding: 0;
+    overflow: hidden;
+}
+
+.work-hour {
+    margin-left: 13%;
+    margin-top: 7%;
+}
+
+.newsLetter {
+    background: #faed26;
+}
+
+.newsLetter .form-input {
+    background: #ffffff;
+    width: 50%;
+    margin: 0 auto;padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #131313;
+    box-sizing: border-box;
+}
+
+.newsLetter button {
+    background: #46344E;
+    color: #ffffff;
+}
+
+@media only screen and (max-width: 750px) {
+    h2, h3, h4 {
+        font-size: 1rem;
+    }
+
+    p {
+        font-size: .7rem;
+    }
+
+    .location, .contact-info, .social-icon {
+        align-content: center;
+        text-align: center;
+    }
+
+    .social-icon {
+        width: 40%;
+        margin: 0 auto;
+    }
+
+    .contact-form {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .form-control button {
+        padding: 10px;
+    }
+
+    .map {
+        height: 217px;
+    }
+
+    .info {
+        display: block
+    }
+
+    .footer-container {
+        margin: 0;
+        padding: 0;
+    }
+
+    .work-hour h5 {
+        font-size: .8rem;
+    }
+
+    .work-hour p {
+        font-size: .6rem;
+        text-align: center;
+    }
+
+    .work-hour {
+        order: 2;
+    }
+
+    .newsLetter {
+        margin-top: -70px;
+        margin-left: auto;
+    }
+
+    .newsLetter h4 {
+        font-size: 1rem;
+        margin-bottom: 2px;
+    }
+
+    .newsLetter p {
+        margin-bottom: 10px;
+    }
+
+    .newsLetter .form-input {
+        width: 80%;
+        margin: 2px auto;
+        padding: 2px 5px;
+    }
+
+    .newsLetter button {
+        width: 60%;
+        margin: 10px auto 0 auto;
+    }
+}
